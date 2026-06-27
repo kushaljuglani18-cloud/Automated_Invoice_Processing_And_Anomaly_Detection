@@ -1,0 +1,112 @@
+invoice_id,invoice_number,date,vendor,num_line_items,quantity,unit_price,line_total,grand_total,math_valid,date_status,is_anomaly,rule_anomaly_reason,ml_anomaly_reason,anomaly_reason
+1,INV-2001,21/06/2026,TechSupplies Co.,1,8,275.0,2200.0,2200.0,True,VALID,False,None,None,None
+2,INV-2002,22/06/2026,OfficeMart Ltd.,1,10,190.0,1900.0,1900.0,True,VALID,False,None,None,None
+3,INV-2003,22/06/2026,GlobalParts Inc.,1,12,185.0,2220.0,2220.0,True,VALID,False,None,None,None
+4,INV-2004,23/06/2026,Skyline Logistics,1,1,6100.0,6100.0,6100.0,True,VALID,False,None,None,None
+5,INV-2026-001,05/06/2026,TechSupplies Co.,2,1,505.0,505.0,729.1,True,VALID,False,None,None,None
+6,INV-2026-002,24/06/2026,TechSupplies Co.,1,7,220.5,1543.5,1543.5,True,VALID,False,None,None,None
+7,INV-2026-003,20/06/2026,TechSupplies Co.,3,4,59.52,238.08,550.16,True,VALID,False,None,None,None
+8,INV-2026-004,23/06/2026,TechSupplies Co.,1,1,612.25,612.25,612.25,True,VALID,False,None,None,None
+9,INV-2026-005,26/06/2026,TechSupplies Co.,2,6,283.9,1703.4,2060.16,True,VALID,False,None,None,None
+10,INV-2026-006,11/06/2026,TechSupplies Co.,2,10,35.18,351.8,867.28,True,VALID,False,None,None,None
+11,INV-2026-007,28/06/2026,TechSupplies Co.,3,4,531.1,2124.4,2961.16,True,FUTURE_DATE,True,Invoice date is in the future,None,Invoice date is in the future
+12,INV-2026-008,26/06/2026,TechSupplies Co.,1,10,60.19,601.9,601.9,True,VALID,False,None,None,None
+13,INV-2026-009,13/06/2026,TechSupplies Co.,2,4,131.08,524.32,879.46,True,VALID,False,None,None,None
+14,INV-2026-010,28/06/2026,TechSupplies Co.,2,1,610.41,610.41,1219.71,True,FUTURE_DATE,True,Invoice date is in the future,None,Invoice date is in the future
+15,INV-2026-011,08/06/2026,OfficeMart Ltd.,2,8,157.74,1261.92,1358.82,True,VALID,False,None,None,None
+16,INV-2026-012,28/06/2026,OfficeMart Ltd.,1,19,19.82,376.58,376.58,True,FUTURE_DATE,True,Invoice date is in the future,None,Invoice date is in the future
+17,INV-2026-013,21/06/2026,OfficeMart Ltd.,2,3,166.65,499.95,847.25,True,VALID,False,None,None,None
+18,INV-2026-014,12/06/2026,OfficeMart Ltd.,1,10,116.27,1162.7,1162.7,True,VALID,False,None,None,None
+19,INV-2026-015,06/06/2026,OfficeMart Ltd.,2,11,31.75,349.25,609.52,True,VALID,False,None,None,None
+20,INV-2026-016,21/06/2026,OfficeMart Ltd.,3,7,101.04,707.28,1443.63,True,VALID,False,None,None,None
+21,INV-2026-017,25/06/2026,OfficeMart Ltd.,2,9,155.69,1401.21,1763.41,True,VALID,False,None,None,None
+22,INV-2026-018,02/06/2026,OfficeMart Ltd.,1,3,102.9,308.7,308.7,True,VALID,False,None,None,None
+23,INV-2026-019,19/06/2026,OfficeMart Ltd.,2,10,72.08,720.8,1253.9,True,VALID,False,None,None,None
+24,INV-2026-020,21/06/2026,OfficeMart Ltd.,2,30,10.55,316.5,640.07,True,VALID,False,None,None,None
+25,INV-2026-021,18/06/2026,GlobalParts Inc.,2,10,235.72,2357.2,2566.22,True,VALID,False,None,None,None
+26,INV-2026-022,19/06/2026,GlobalParts Inc.,1,6,202.55,1215.3,1215.3,True,VALID,False,None,None,None
+27,INV-2026-023,05/06/2026,GlobalParts Inc.,2,4,569.35,2277.4,2742.88,True,VALID,False,None,None,None
+28,INV-2026-024,05/06/2026,GlobalParts Inc.,2,12,323.38,3880.56,4525.0,True,VALID,False,None,None,None
+29,INV-2026-025,22/06/2026,GlobalParts Inc.,1,40,13.2,528.0,528.0,True,VALID,True,None,Flagged by Isolation Forest model,Flagged by Isolation Forest model
+30,INV-2026-026,18/06/2026,GlobalParts Inc.,3,5,478.92,2394.6,4660.92,True,VALID,False,None,None,None
+31,INV-2026-027,18/06/2026,GlobalParts Inc.,2,3,286.06,858.18,1165.37,True,VALID,False,None,None,None
+32,INV-2026-028,11/06/2026,GlobalParts Inc.,1,9,392.15,3529.35,3529.35,True,VALID,False,None,None,None
+33,INV-2026-029,24/06/2026,GlobalParts Inc.,2,1,388.05,388.05,869.53,True,VALID,False,None,None,None
+34,INV-2026-030,04/06/2026,GlobalParts Inc.,2,23,29.44,677.12,1657.88,True,VALID,False,None,None,None
+35,INV-2026-031,10/06/2026,Skyline Logistics,1,1,7111.56,7111.56,7111.56,True,VALID,False,None,None,None
+36,INV-2026-032,07/06/2026,Skyline Logistics,2,1,7025.01,7025.01,8032.67,True,VALID,False,None,None,None
+37,INV-2026-033,25/06/2026,Skyline Logistics,1,1,4958.52,4958.52,4958.52,True,VALID,False,None,None,None
+38,INV-2026-034,25/06/2026,Skyline Logistics,1,2,661.55,1323.1,1323.1,True,VALID,False,None,None,None
+39,INV-2026-035,01/06/2026,Skyline Logistics,1,1,7267.3,7267.3,7267.3,True,VALID,False,None,None,None
+40,INV-2026-036,04/06/2026,Skyline Logistics,2,1,6296.83,6296.83,7285.44,True,VALID,False,None,None,None
+41,INV-2026-037,27/06/2026,Skyline Logistics,1,1,7287.3,7287.3,7287.3,True,FUTURE_DATE,True,Invoice date is in the future,None,Invoice date is in the future
+42,INV-2026-038,08/06/2026,Skyline Logistics,1,1,6920.32,6920.32,6920.32,True,VALID,False,None,None,None
+43,INV-2026-039,03/06/2026,Skyline Logistics,2,3,557.93,1673.79,8807.82,True,VALID,False,None,None,None
+44,INV-2026-040,03/06/2026,Skyline Logistics,2,1,4756.96,4756.96,5742.95,True,VALID,False,None,None,None
+45,INV-2026-041,25/06/2026,TechSupplies Co.,1,1,15000.0,15000.0,15000.0,True,VALID,True,None,Flagged by Isolation Forest model,Flagged by Isolation Forest model
+46,INV-2026-042,18/06/2026,GlobalParts Inc.,1,5,420.0,2100.0,2100.0,True,VALID,False,None,None,None
+47,INV-2026-043,25/12/2026,GlobalParts Inc.,1,5,420.0,2100.0,2100.0,True,FUTURE_DATE,True,Invoice date is in the future,None,Invoice date is in the future
+48,INV-2026-044,11/06/2026,GlobalParts Inc.,1,5,420.0,2100.0,2100.0,True,VALID,True,Possible duplicate invoice details,None,Possible duplicate invoice details
+49,INV-2026-045,11/06/2026,GlobalParts Inc.,1,5,420.0,2100.0,2100.0,True,VALID,True,Possible duplicate invoice details,None,Possible duplicate invoice details
+50,INV-2026-046,25/12/2026,Skyline Logistics,1,1,5400.0,5400.0,5400.0,True,FUTURE_DATE,True,Possible duplicate invoice details; Invoice date is in the future,None,Possible duplicate invoice details; Invoice date is in the future
+51,INV-3001,25/06/2026,TechSupplies Co,3,2,275.0,550.0,950.0,True,VALID,False,None,None,None
+52,INV-3002,25/06/2026,OfficeMart Ltd,4,4,220.0,880.0,1450.0,True,VALID,False,None,None,None
+53,INV-3003,26/06/2026,GlobalParts Inc.,3,20,82.0,1640.0,2940.0,True,VALID,False,None,None,None
+54,INV-9001,24/06/2026,TechSupplies Co.,1,1,18000.0,18000.0,18000.0,True,VALID,True,None,Flagged by Isolation Forest model,Flagged by Isolation Forest model
+55,INV-9002,26/06/2026,TechSupplies Co.,2,1,18000.0,18000.0,28000.0,True,VALID,True,None,Unusual amount for this vendor (Z-score); Flagged by Isolation Forest model,Unusual amount for this vendor (Z-score); Flagged by Isolation Forest model
+56,INV-C101,28/06/2026,BlueWave Electronics,3,2,850.0,1700.0,1924.0,True,FUTURE_DATE,True,Invoice date is in the future,None,Invoice date is in the future
+57,INV-C102,28/06/2026,GreenLeaf Office,3,5,210.0,1050.0,2100.0,True,FUTURE_DATE,True,Invoice date is in the future,None,Invoice date is in the future
+58,INV-C103,29/06/2026,Sunrise Logistics,3,1,4800.0,4800.0,5290.0,True,FUTURE_DATE,True,Invoice date is in the future,None,Invoice date is in the future
+59,INV-C999,29/06/2026,TechSupplies Co.,2,1,18000.0,18000.0,27600.0,True,FUTURE_DATE,True,Invoice date is in the future,Unusual amount for this vendor (Z-score); Flagged by Isolation Forest model,Invoice date is in the future; Unusual amount for this vendor (Z-score); Flagged by Isolation Forest model
+60,NOT FOUND,21/06/2026,GreenLeaf Office,2,2,275.0,550.0,910.0,True,VALID,False,None,None,None
+61,NOT FOUND,22/06/2026,GreenLeaf Office,2,1,900.0,900.0,1025.0,True,VALID,False,None,None,None
+62,INV-R103,23/06/2026,GreenLeaf Office,5,4,210.0,840.0,6770.0,True,VALID,False,None,None,None
+63,NOT FOUND,24/06/2026,GreenLeaf Office,5,1,4800.0,4800.0,11060.0,True,VALID,True,None,Unusual amount for this vendor (Z-score),Unusual amount for this vendor (Z-score)
+64,NOT FOUND,25/06/2026,GreenLeaf Office,3,2,275.0,550.0,6190.0,True,VALID,False,None,None,None
+65,INV-R106,26/06/2026,Sunrise Logistics,5,1,900.0,900.0,3255.0,True,VALID,False,None,None,None
+66,INV-R107,27/06/2026,GreenLeaf Office,3,2,275.0,550.0,5710.0,True,FUTURE_DATE,True,Invoice date is in the future,None,Invoice date is in the future
+67,INV-R108,28/06/2026,BlueWave Electronics,4,2,275.0,550.0,10990.0,True,FUTURE_DATE,True,Invoice date is in the future,None,Invoice date is in the future
+68,INV-R109,29/06/2026,Sunrise Logistics,3,2,275.0,550.0,7150.0,False,FUTURE_DATE,True,Line-item math does not match invoice total; Invoice date is in the future,None,Line-item math does not match invoice total; Invoice date is in the future
+69,INV-R110,30/06/2026,GreenLeaf Office,4,4,210.0,840.0,1640.0,True,FUTURE_DATE,True,Invoice date is in the future,None,Invoice date is in the future
+70,NOT FOUND,31/06/2026,Sunrise Logistics,5,1,4800.0,4800.0,6910.0,True,,False,None,None,None
+71,INV-R112,32/06/2026,"TechSupplies Co,",2,2,275.0,550.0,2465.0,False,,True,Line-item math does not match invoice total,None,Line-item math does not match invoice total
+72,INV-1005,05/06/2026,Skyline Logistics,1,1,5200.0,5200.0,5200.0,True,VALID,False,None,None,None
+73,INV-GEN-2026-001,21/06/2026,TechSupplies Co.,1,5,190.3,951.5,951.5,True,VALID,False,None,None,None
+74,INV-GEN-2026-002,05/06/2026,TechSupplies Co.,3,7,46.45,325.15,4552.55,True,VALID,False,None,None,None
+75,INV-GEN-2026-003,18/06/2026,TechSupplies Co.,1,7,173.8,1216.6,1216.6,True,VALID,False,None,None,None
+76,INV-GEN-2026-004,19/06/2026,TechSupplies Co.,2,7,254.67,1782.69,2293.71,True,VALID,False,None,None,None
+77,INV-GEN-2026-005,11/06/2026,TechSupplies Co.,1,7,90.28,631.96,631.96,True,VALID,False,None,None,None
+78,INV-GEN-2026-006,12/06/2026,TechSupplies Co.,3,8,386.95,3095.6,6567.18,True,VALID,False,None,None,None
+79,INV-GEN-2026-007,20/06/2026,TechSupplies Co.,2,2,55.93,111.86,2299.14,False,VALID,True,Line-item math does not match invoice total,None,Line-item math does not match invoice total
+80,INV-GEN-2026-008,03/06/2026,TechSupplies Co.,1,7,212.63,1488.41,1488.41,True,VALID,False,None,None,None
+81,INV-GEN-2026-009,21/06/2026,Office Mart Ltd.,2,13,49.81,647.53,2081.03,True,VALID,False,None,None,None
+82,INV-GEN-2026-010,22/06/2026,OfficeMart Ltd.,3,25,56.51,1412.75,5822.85,True,VALID,True,None,Unusual amount for this vendor (Z-score),Unusual amount for this vendor (Z-score)
+83,INV-GEN-2026-011,08/06/2026,Office Mart Ltd.,3,3,162.96,488.88,2809.06,True,VALID,False,None,None,None
+84,INV-GEN-2026-012,19/06/2026,OfficeMart Ltd.,3,17,85.17,1447.89,3951.15,True,VALID,False,None,None,None
+85,INV-GEN-2026-013,24/06/2026,Office Mart Ltd.,3,20,91.4,1828.0,5341.21,True,VALID,False,None,None,None
+86,INV-GEN-2026-0,05/06/2026,OfficeMart Ltd.,3,5,39.04,195.2,3168.5,True,VALID,False,None,None,None
+87,INV-GEN-2026-015,13/06/2026,Office Mart Ltd.,2,18,57.77,1039.86,4337.31,True,VALID,False,None,None,None
+88,INV-GEN-2026-016,01/06/2026,OfficeMart Ltd.,3,12,31.19,374.28,1357.49,True,VALID,False,None,None,None
+89,INV-GEN-2026-017,24/06/2026,GlobalParts Inc.,2,5,393.68,1968.4,6160.83,True,VALID,False,None,None,None
+90,INV-GEN-2026-018,17/06/2026,GlobalParts Inc.,3,7,249.63,1747.41,12485.34,True,VALID,True,None,Unusual amount for this vendor (Z-score),Unusual amount for this vendor (Z-score)
+91,INV-GEN-2026-019,01/06/2026,GlobalParts Inc.,1,11,119.16,1310.76,1310.76,True,VALID,False,None,None,None
+92,INV-GEN-2026-020,08/06/2026,GlobalParts Inc.,3,4,440.42,1761.68,10188.28,True,VALID,True,None,Unusual amount for this vendor (Z-score),Unusual amount for this vendor (Z-score)
+93,INV-GEN-2026-021,18/06/2026,GlobalParts Inc.,1,18,394.51,7101.18,7101.18,True,VALID,False,None,None,None
+94,INV-GEN-2026-022,14/06/2026,GlobalParts Inc.,1,24,150.6,3614.4,3614.4,True,VALID,False,None,None,None
+95,INV-GEN-2026-023,22/06/2026,GlobalParts Inc.,3,5,122.84,614.2,6381.68,True,VALID,False,None,None,None
+96,INV-GEN-2026-024,19/06/2026,GlobalParts Inc.,1,4,322.91,1291.64,1291.64,True,VALID,False,None,None,None
+97,INV-GEN-2026-025,02/06/2026,Skyline Logistics,1,1,6517.45,6517.45,6517.45,True,VALID,False,None,None,None
+98,INV-GEN-2026-026,03/06/2026,Skyline Logistics,3,1,4274.64,4274.64,39020.88,True,VALID,True,None,Unusual amount for this vendor (Z-score); Flagged by Isolation Forest model,Unusual amount for this vendor (Z-score); Flagged by Isolation Forest model
+99,INV-GEN-2026-027,08/06/2026,Skyline Logistics,2,1,1178.52,1178.52,7138.68,True,VALID,False,None,None,None
+100,INV-GEN-2026-028,14/06/2026,Skyline Logistics,2,3,5074.19,15222.57,18789.36,True,VALID,True,None,Flagged by Isolation Forest model,Flagged by Isolation Forest model
+101,INV-GEN-2026-029,13/06/2026,Skyline Logistics,3,1,1831.46,1831.46,7243.84,True,VALID,False,None,None,None
+102,INV-GEN-2026-030,08/06/2026,Skyline Logistics,1,3,1185.36,3556.08,3556.08,True,VALID,False,None,None,None
+103,INV-GEN-2026-031,21/06/2026,Skyline Logistics,3,1,3344.9,3344.9,20971.56,True,VALID,False,None,None,None
+104,INV-GEN-2026-032,06/06/2026,Skyline Logistics,2,2,6985.63,13971.26,18964.74,True,VALID,True,None,Flagged by Isolation Forest model,Flagged by Isolation Forest model
+105,INV-GEN-BAD-GRAND,22/06/2026,GlobalParts Inc.,2,20,82.0,1640.0,2500.0,False,VALID,True,Line-item math does not match invoice total,None,Line-item math does not match invoice total
+106,INV-GEN-BAD-LINE,21/06/2026,Office Mart Ltd.,2,4,220.0,880.0,1879.0,False,VALID,True,Line-item math does not match invoice total,None,Line-item math does not match invoice total
+107,INV-GEN-DUP-A,23/06/2026,GlobalParts Inc.,1,5,420.0,2100.0,2100.0,True,VALID,True,Possible duplicate invoice details,None,Possible duplicate invoice details
+108,INV-GEN-DUP-B,23/06/2026,GlobalParts Inc.,1,5,420.0,2100.0,2100.0,True,VALID,True,Possible duplicate invoice details,None,Possible duplicate invoice details
+109,INV-GEN-FUTURE-DATE,25/12/2026,Skyline Logistics,1,1,5400.0,5400.0,5400.0,True,FUTURE_DATE,True,Possible duplicate invoice details; Invoice date is in the future,None,Possible duplicate invoice details; Invoice date is in the future
+110,INV-GEN-HIGH-AMOUNT,24/06/2026,TechSupplies Co.,1,1,15000.0,15000.0,15000.0,True,VALID,True,None,Flagged by Isolation Forest model,Flagged by Isolation Forest model
+111,INV-GEN-TABLE-VALID,20/06/2026,TechSupplies Co.,3,2,275.0,550.0,950.0,True,VALID,False,None,None,None

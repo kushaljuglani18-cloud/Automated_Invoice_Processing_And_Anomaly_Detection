@@ -1,0 +1,40 @@
+invoice_number,style,expected_math_valid,expected_rule_anomaly
+INV-GEN-2026-001,table,True,None
+INV-GEN-2026-002,labelled,True,None
+INV-GEN-2026-003,table,True,None
+INV-GEN-2026-004,labelled,True,None
+INV-GEN-2026-005,table,True,None
+INV-GEN-2026-006,labelled,True,None
+INV-GEN-2026-007,table,True,None
+INV-GEN-2026-008,labelled,True,None
+INV-GEN-2026-009,table,True,None
+INV-GEN-2026-010,labelled,True,None
+INV-GEN-2026-011,table,True,None
+INV-GEN-2026-012,labelled,True,None
+INV-GEN-2026-013,table,True,None
+INV-GEN-2026-014,labelled,True,None
+INV-GEN-2026-015,table,True,None
+INV-GEN-2026-016,labelled,True,None
+INV-GEN-2026-017,table,True,None
+INV-GEN-2026-018,labelled,True,None
+INV-GEN-2026-019,table,True,None
+INV-GEN-2026-020,labelled,True,None
+INV-GEN-2026-021,table,True,None
+INV-GEN-2026-022,labelled,True,None
+INV-GEN-2026-023,table,True,None
+INV-GEN-2026-024,labelled,True,None
+INV-GEN-2026-025,table,True,None
+INV-GEN-2026-026,labelled,True,None
+INV-GEN-2026-027,table,True,None
+INV-GEN-2026-028,labelled,True,None
+INV-GEN-2026-029,table,True,None
+INV-GEN-2026-030,labelled,True,None
+INV-GEN-2026-031,table,True,None
+INV-GEN-2026-032,labelled,True,None
+INV-GEN-TABLE-VALID,table,True,None
+INV-GEN-BAD-LINE,table,False,Line-item math does not match invoice total
+INV-GEN-BAD-GRAND,table,False,Line-item math does not match invoice total
+INV-GEN-DUP-A,table,True,Possible duplicate invoice details
+INV-GEN-DUP-B,table,True,Possible duplicate invoice details
+INV-GEN-HIGH-AMOUNT,table,True,None
+INV-GEN-FUTURE-DATE,table,True,Invoice date is in the future
