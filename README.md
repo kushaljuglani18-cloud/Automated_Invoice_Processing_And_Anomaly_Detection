@@ -27,7 +27,7 @@ Built as a Data Science internship project.
 - Multi-line item extraction and per-item math validation
 - Dual OCR pass with automatic quality scoring
 - Separates rule-based anomaly reasons from ML-based reasons
-- Tested on 95 synthetic invoices across 4 vendors
+- Tested on 111 synthetic invoices across 4 vendors
 
 ---
 
