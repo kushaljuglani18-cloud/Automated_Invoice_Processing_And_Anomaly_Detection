@@ -78,10 +78,13 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\path\to\tesseract.exe'
 # Step 1: Generate sample invoices
 python create_samples.py
 
-# Step 2: Run the full pipeline
+#Step 2: Clean up the invoices for OCR Engine
+python preprocessing.py
+
+# Step 3: Run the full pipeline
 python main.py
 
-# Step 3: Generate visualizations
+# Step 4: Generate visualizations
 python visualize.py
 ```
 
